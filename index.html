@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/439ca93636.js" crossorigin="anonymous"></script>
     <style>
         :root {
             /* Light Theme Variables */
@@ -38,7 +39,8 @@
                         clifford: '#da373d',
                         'bike-primary': '#E76F51',
                         'dark-bg': '#1d232a',
-                        'bike-back' :'rgba(231, 111, 81, 0.1)'
+                        'bike-back' :'rgba(231, 111, 81, 0.1)',
+                        'orange-rgba' : 'rgba(231, 111, 81, 1)'
                     },
                 },
             },
@@ -145,20 +147,123 @@
           </section>
           <section>
             <h1 class="text-4xl font-bold text-center">Latest news</h1>
-
+            <!-- card-1 -->
+            <div class="grid grid-cols-1 lg: grid-cols-3 my-20">
+                <div class="card bg-base-100 w-96 shadow-xl">
+                    <figure>
+                      <img src="images/others/latest1.png" alt="">
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p class="text-sm text-gray-600 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aspernatur dignissimos.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-bike-primary text-white">Read more</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 w-96 shadow-xl">
+                    <figure>
+                      <img src="images/others/latest2.png" alt="">
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Motorcycles & Scooters</h2>
+                      <p class="text-sm text-gray-600 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aspernatur dignissimos.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-white text-orange-600 border border-orange-600">Read more</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 w-96 shadow-xl">
+                    <figure>
+                      <img src="images/others/latest3.png" alt="">
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">2021 Honda CBR500R</h2>
+                      <p class="text-sm text-gray-600 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aspernatur dignissimos.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-white text-orange-600 border border-orange-600">Read more</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </section>
+          <section>
+            <h1 class="text-5xl font-bold text-center mb-20">Happy <span class=" text-orange-rgba">Clients says</span></h1>
+            <div class="flex flex-cols-1 lg:flex-cols-3 gap-12 items-center justify-center">
+              <div class="w-[325px] h-[450px] border border-gray-300 rounded-xl p-5 my-5">
+                <div class="avatar flex items-center justify-center mt-5">
+                  <div class="w-36 rounded-full ">
+                    <img src="images/others/user-1.png" alt="">
+                  </div>
+                </div>
+                <div>
+                  <p class="text-sm text-gray-500 text-center mx-auto my-5">Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="items-center mx-auto flex justify-center gap-2 mb-4">
+                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+                      <i class="fa-regular fa-star" style="color: #FFD43B;"></i></div>
+                </div>
+                <p class="text-sm font-semibold text-sky-600 text-center my-5">Regina Miles</p>
+                <p class="text-sm font-semibold text-center mb-5">Banker</p>
+              </div>
+              <div class="w-[325px] h-[450px] border border-gray-300 rounded-xl p-5 my-5">
+                <div class="avatar flex items-center justify-center mt-5">
+                  <div class="w-36 rounded-full ">
+                    <img src="images/others/user-2.png" alt="">
+                  </div>
+                </div>
+                <div>
+                  <p class="text-sm text-gray-500 text-center mx-auto my-5">Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="items-center mx-auto flex justify-center gap-2 mb-4">
+                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+                      <i class="fa-regular fa-star" style="color: #FFD43B;"></i></div>
+                </div>
+                <p class="text-sm font-semibold text-sky-600 text-center my-5">Regina Miles</p>
+                <p class="text-sm font-semibold text-center mb-5">Banker</p>
+              </div>
+              <div class="w-[325px] h-[450px] border border-gray-300 rounded-xl p-5 my-5">
+                <div class="avatar flex items-center justify-center mt-5">
+                  <div class="w-36 rounded-full ">
+                    <img src="images/others/user-3.png" alt="">
+                  </div>
+                </div>
+                <div>
+                  <p class="text-sm text-gray-500 text-center mx-auto my-5">Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                    <div class="items-center mx-auto flex justify-center gap-2 mb-4">
+                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
+                      <i class="fa-regular fa-star" style="color: #FFD43B;"></i></div>
+                </div>
+                <p class="text-sm font-semibold text-sky-600 text-center my-5">Regina Miles</p>
+                <p class="text-sm font-semibold text-center mb-5">Banker</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h1 class="text-5xl font-bold text-center my-20">Frequently Asked <span class="text-orange-rgba">Questions</span></h1>
+            <div>
+              <!-- img section -->
+              <div></div>
+              <!-- text section -->
+            </div>
           </section>
     </main>
     <footer></footer>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const themeController = document.querySelector(".theme-controller");
-            themeController.addEventListener("change", () => {
-                document.documentElement.setAttribute(
-                    "data-theme",
-                    themeController.checked ? "dark" : "light"
-                );
-            });
-        });
-    </script>
-</body>
+  </body>
 </html>
